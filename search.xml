@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>Chapter 2 —— Mistakes I made</title>
+      <link href="/2024/11/27/Mathematical%20Analysis/Chapter2_errors/"/>
+      <url>/2024/11/27/Mathematical%20Analysis/Chapter2_errors/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第二章-——-错题记录"><a href="#第二章-——-错题记录" class="headerlink" title="第二章 —— 错题记录"></a>第二章 —— 错题记录</h1><p><strong>错题一</strong><br>判断对错：若数列 {$a_{2k}$} 和 {$a_{2k-1}$} 都收敛，则数列 {$a_n$} 收敛<br>我: ✔<br>正解: ✘<br>解析：见教材P25，若子列 {$a_{2n}$}, {$a_{2n+1}$} 收敛且<strong>有相同极限</strong>，则数列 {$a_n$} 收敛。我忽略了 <strong>有相同极限</strong> 这一条件    </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CalcuNote </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> BUAA-Course-Notes </tag>
+            
+            <tag> Math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Chapter 1 —— Mistakes I made</title>
       <link href="/2024/11/25/Mathematical%20Analysis/Chapter1_errors/"/>
       <url>/2024/11/25/Mathematical%20Analysis/Chapter1_errors/</url>
       
-        <content type="html"><![CDATA[<h1 id="第一章-——-错题记录"><a href="#第一章-——-错题记录" class="headerlink" title="第一章 —— 错题记录"></a>第一章 —— 错题记录</h1><p><strong>错题一</strong><br>判断对错：两图像关于直线 $y=x$ 对称，则它们互为反函数<br>我: ✔<br>正解: ×<br>解析：<strong>反函数的存在</strong> 必须是一个前提。反函数和其原函数图像必然关于直线 $y=x$ 对称，但<strong>两个图像关于直线 $y=x$ 对称的函数不一定存在反函数</strong>。比如 $y=x^2$ 和 $y=\sqrt{x}$ 关于直线 $y=x$ 对称，但 $y=x^2$ 没有反函数，只有削减其定义域至 $x \in [0, \infty)$ 后两者才互为反函数。<br>记住：<strong>两图像关于直线 $y=x$ 对称，但它们不一定互为反函数</strong>  </p>]]></content>
+        <content type="html"><![CDATA[<h1 id="第一章-——-错题记录"><a href="#第一章-——-错题记录" class="headerlink" title="第一章 —— 错题记录"></a>第一章 —— 错题记录</h1><p><strong>错题一</strong><br>判断对错：两图像关于直线 $y=x$ 对称，则它们互为反函数<br>我: ✔<br>正解: ✘<br>解析：<strong>反函数的存在</strong> 必须是一个前提。反函数和其原函数图像必然关于直线 $y=x$ 对称，但<strong>两个图像关于直线 $y=x$ 对称的函数不一定存在反函数</strong>。比如 $y=x^2$ 和 $y=\sqrt{x}$ 关于直线 $y=x$ 对称，但 $y=x^2$ 没有反函数，只有削减其定义域至 $x \in [0, \infty)$ 后两者才互为反函数。<br>记住：<strong>两图像关于直线 $y=x$ 对称，但它们不一定互为反函数</strong>  </p>]]></content>
       
       
       <categories>
